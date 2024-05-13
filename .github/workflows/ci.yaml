@@ -5,6 +5,7 @@ name: Tests
 on:
   schedule:
     - cron: '53 3/6 * * *' # UTC 3:53, 9:53, 15:53, 21:53
+  workflow_dispatch:
 
 jobs:
   lint:
