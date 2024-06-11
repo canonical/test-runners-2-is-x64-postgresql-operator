@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     name: Build charm
-    uses: canonical/data-platform-workflows/.github/workflows/build_charm.yaml@v13.3.4
+    uses: canonical/data-platform-workflows/.github/workflows/build_charm.yaml@v13.3.6
     with:
       cache: true
 
