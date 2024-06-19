@@ -1,0 +1,430 @@
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg (waiting for exactly 3 units, current : 4)
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [executing] active: 
+  pg/2 [executing] maintenance: reconfiguring cluster
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: 
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m juju.model:model.py:2958 Waiting for model:
+  pg/1 [idle] active: 
+  pg/2 [idle] active: Primary
+  pg/3 [executing] waiting: waiting to start PostgreSQL
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller           Cloud/Region         Version  SLA          Timestamp
+test   localhost-localhost  localhost/localhost  3.1.8    unsupported  02:56:35Z
+
+App               Version  Status       Scale  Charm             Channel      Rev  Exposed  Message
+landscape-client           maintenance      3  landscape-client  latest/edge   69  no       Installing landscape client..
+pg                14.11    waiting          3  postgresql                       0  no       waiting to start PostgreSQL
+ubuntu-advantage           maintenance      3  ubuntu-advantage  latest/edge   79  no       Configuring
+
+Unit                   Workload     Agent      Machine  Public address  Ports     Message
+pg/1                   active       idle       1        10.159.222.131  5432/tcp  
+  landscape-client/2*  active       idle                10.159.222.131            Client registered!
+  ubuntu-advantage/2   active       idle                10.159.222.131            Attached (esm-apps,esm-infra)
+pg/2*                  active       idle       2        10.159.222.79   5432/tcp  Primary
+  landscape-client/1   active       idle                10.159.222.79             Client registered!
+  ubuntu-advantage/1*  active       idle                10.159.222.79             Attached (esm-apps,esm-infra)
+pg/3                   waiting      executing  3        10.159.222.200  5432/tcp  (start) waiting to start PostgreSQL
+  landscape-client/3   maintenance  executing           10.159.222.200            (leader-settings-changed) Installing landscape client..
+  ubuntu-advantage/3   maintenance  executing           10.159.222.200            (config-changed) Configuring
+
+Machine  State    Address         Inst id        Base          AZ  Message
+1        started  10.159.222.131  juju-c8e389-1  ubuntu@22.04      Running
+2        started  10.159.222.79   juju-c8e389-2  ubuntu@22.04      Running
+3        started  10.159.222.200  juju-c8e389-3  ubuntu@22.04      Running
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+machine-2: 01:32:39 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-2: 01:32:39 ERROR juju.worker.dependency "broker-tracker" manifold worker returned unexpected error: no container types determined
+machine-2: 01:32:39 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-pg-2: 01:32:39 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-1: 01:32:40 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-1: 01:32:40 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-1: 01:32:40 ERROR juju.worker.dependency "broker-tracker" manifold worker returned unexpected error: no container types determined
+unit-pg-1: 01:32:40 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-0: 01:32:43 ERROR juju.worker.dependency "broker-tracker" manifold worker returned unexpected error: no container types determined
+machine-0: 01:32:44 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-0: 01:32:44 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-pg-0: 01:32:44 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-landscape-client-2: 01:48:09 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-ubuntu-advantage-2: 01:48:09 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-landscape-client-1: 01:48:30 ERROR unit.unit-landscape-client-1.juju-log Uncaught exception while in charm code:
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/venv/ops/model.py", line 2955, in _run
+    result = subprocess.run(args, **kwargs)  # type: ignore
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '('/var/lib/juju/tools/unit-landscape-client-1/is-leader', '--format=json')' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/./src/charm.py", line 261, in <module>
+    main(LandscapeClientCharm)
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/venv/ops/main.py", line 438, in main
+    ops.charm._evaluate_status(charm)
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/venv/ops/charm.py", line 1138, in _evaluate_status
+    if charm.framework.model._backend.is_leader():
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/venv/ops/model.py", line 3085, in is_leader
+    is_leader = self._run('is-leader', return_output=True, use_json=True)
+  File "/var/lib/juju/agents/unit-landscape-client-1/charm/venv/ops/model.py", line 2957, in _run
+    raise ModelError(e.stderr) from e
+ops.model.ModelError: ERROR leadership status unknown: not implemented for restricted context not implemented
+
+unit-landscape-client-0: 01:48:30 ERROR unit.unit-landscape-client-0.juju-log Uncaught exception while in charm code:
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/venv/ops/model.py", line 2955, in _run
+    result = subprocess.run(args, **kwargs)  # type: ignore
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '('/var/lib/juju/tools/unit-landscape-client-0/is-leader', '--format=json')' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/./src/charm.py", line 261, in <module>
+    main(LandscapeClientCharm)
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/venv/ops/main.py", line 438, in main
+    ops.charm._evaluate_status(charm)
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/venv/ops/charm.py", line 1138, in _evaluate_status
+    if charm.framework.model._backend.is_leader():
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/venv/ops/model.py", line 3085, in is_leader
+    is_leader = self._run('is-leader', return_output=True, use_json=True)
+  File "/var/lib/juju/agents/unit-landscape-client-0/charm/venv/ops/model.py", line 2957, in _run
+    raise ModelError(e.stderr) from e
+ops.model.ModelError: ERROR leadership status unknown: not implemented for restricted context not implemented
+
+unit-landscape-client-1: 01:48:30 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 1
+unit-landscape-client-0: 01:48:30 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 1
+unit-ubuntu-advantage-0: 01:48:31 ERROR unit.unit-ubuntu-advantage-0.juju-log Uncaught exception while in charm code:
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 2183, in _run
+    result = run(args, **kwargs)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '('/var/lib/juju/tools/unit-ubuntu-advantage-0/config-get', '--format=json')' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/./src/charm.py", line 210, in <module>
+    main(UbuntuAdvantageCharm)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/main.py", line 426, in main
+    charm = charm_class(framework)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/./src/charm.py", line 69, in __init__
+    self._setup_proxy_env()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/./src/charm.py", line 79, in _setup_proxy_env
+    self.env["http_proxy"] = self.config.get("override-http-proxy") or self.env.get(
+  File "/usr/lib/python3.10/_collections_abc.py", line 824, in get
+    return self[key]
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 547, in __getitem__
+    return self._data[key]
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 531, in _data
+    data = self._lazy_data = self._load()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 1092, in _load
+    return self._backend.config_get()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 2299, in config_get
+    out = self._run('config-get', return_output=True, use_json=True)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-0/charm/venv/ops/model.py", line 2189, in _run
+    raise ModelError(e.stderr)
+ops.model.ModelError: b'ERROR not implemented for restricted context not implemented\n'
+unit-ubuntu-advantage-1: 01:48:31 ERROR unit.unit-ubuntu-advantage-1.juju-log Uncaught exception while in charm code:
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 2183, in _run
+    result = run(args, **kwargs)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '('/var/lib/juju/tools/unit-ubuntu-advantage-1/config-get', '--format=json')' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/./src/charm.py", line 210, in <module>
+    main(UbuntuAdvantageCharm)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/main.py", line 426, in main
+    charm = charm_class(framework)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/./src/charm.py", line 69, in __init__
+    self._setup_proxy_env()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/./src/charm.py", line 79, in _setup_proxy_env
+    self.env["http_proxy"] = self.config.get("override-http-proxy") or self.env.get(
+  File "/usr/lib/python3.10/_collections_abc.py", line 824, in get
+    return self[key]
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 547, in __getitem__
+    return self._data[key]
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 531, in _data
+    data = self._lazy_data = self._load()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 1092, in _load
+    return self._backend.config_get()
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 2299, in config_get
+    out = self._run('config-get', return_output=True, use_json=True)
+  File "/var/lib/juju/agents/unit-ubuntu-advantage-1/charm/venv/ops/model.py", line 2189, in _run
+    raise ModelError(e.stderr)
+ops.model.ModelError: b'ERROR not implemented for restricted context not implemented\n'
+unit-ubuntu-advantage-0: 01:48:31 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 1
+unit-ubuntu-advantage-1: 01:48:31 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 1
+machine-3: 01:51:15 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-3: 01:51:15 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-3: 01:51:15 ERROR juju.worker.dependency "broker-tracker" manifold worker returned unexpected error: no container types determined
+unit-pg-3: 01:51:16 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-landscape-client-3: 01:51:58 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 127
+unit-ubuntu-advantage-3: 01:51:59 ERROR juju.worker.meterstatus error running "meter-status-changed": exit status 1
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
