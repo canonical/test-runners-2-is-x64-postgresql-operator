@@ -1,0 +1,272 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:734 Connecting to existing model localhost-localhost:test on unspecified cloud
+[32mINFO    [0m juju.model:model.py:2097 Deploying ch:amd64/jammy/ubuntu-advantage-95
+[32mINFO    [0m juju.model:model.py:2097 Deploying ch:amd64/jammy/landscape-client-69
+[32mINFO    [0m juju.model:model.py:2097 Deploying local:jammy/postgresql-0
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  pg/0 [allocating] waiting: waiting for machine
+  pg/1 [allocating] waiting: waiting for machine
+  pg/2 [allocating] waiting: waiting for machine
