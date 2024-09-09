@@ -1,0 +1,200 @@
+[32mINFO    [0m integration.test_charm:test_charm.py:308 connecting to primary postgresql/3 on 10.235.106.134
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/1 [idle] active: 
+  postgresql/3 [idle] active: Primary
+  postgresql/4 [idle] active: 
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/1 [executing] active: 
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/1 [idle] active: Primary
+  postgresql/4 [idle] active: 
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m juju.model:model.py:2971 Waiting for model:
+  postgresql/5 [allocating] waiting: waiting for machine
+  postgresql/6 [allocating] waiting: waiting for machine
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller           Cloud/Region         Version  SLA          Timestamp
+test   localhost-localhost  localhost/localhost  3.4.4    unsupported  02:56:51Z
+
+App         Version  Status  Scale  Charm       Channel  Rev  Exposed  Message
+postgresql           active    2/4  postgresql             0  no       
+
+Unit           Workload  Agent       Machine  Public address  Ports     Message
+postgresql/1*  active    idle        1        10.235.106.123  5432/tcp  Primary
+postgresql/4   active    idle        4        10.235.106.176  5432/tcp  
+postgresql/5   waiting   allocating  5                                  waiting for machine
+postgresql/6   waiting   allocating  6                                  waiting for machine
+
+Machine  State    Address         Inst id        Base          AZ  Message
+1        started  10.235.106.123  juju-366ad2-1  ubuntu@22.04      Running
+4        started  10.235.106.176  juju-366ad2-4  ubuntu@22.04      Running
+5        down                     pending        ubuntu@22.04      Failed creating instance from image: Unpack failed: Failed to run: unsquashfs -f -d /var/snap/lxd/common/lxd/storage-...
+6        down                     pending        ubuntu@22.04      Failed creating instance from image: Unpack failed: Failed to run: unsquashfs -f -d /var/snap/lxd/common/lxd/storage-...
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+machine-2: 01:38:37 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-2: 01:38:37 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-2: 01:38:37 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-1: 01:38:46 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-1: 01:38:46 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-1: 01:38:46 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-0: 01:39:07 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-0: 01:39:07 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-0: 01:39:07 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-4: 01:50:11 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-4: 01:50:11 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-4: 01:50:12 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-3: 01:50:12 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-3: 01:50:12 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-3: 01:50:12 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+controller-0: 02:00:35 ERROR juju.worker.provisioner cannot start instance for machine "5": Failed creating instance from image: Unpack failed: Failed to run: unsquashfs -f -d /var/snap/lxd/common/lxd/storage-pools/default/containers/juju-366ad2-5/rootfs -n /var/snap/lxd/common/lxd/images/82b997ec581b6ee87d3ef9ae7bd9d22221831cc148b7a53b60c7218b5cf4424f.rootfs: exit status 1 (xz uncompress failed with error code 9
+FATAL ERROR: writer: failed to read/uncompress file /var/snap/lxd/common/lxd/storage-pools/default/containers/juju-366ad2-5/rootfs/usr/lib/x86_64-linux-gnu/libsepol.so.2)
+controller-0: 02:00:37 ERROR juju.worker.provisioner cannot start instance for machine "6": Failed creating instance from image: Unpack failed: Failed to run: unsquashfs -f -d /var/snap/lxd/common/lxd/storage-pools/default/containers/juju-366ad2-6/rootfs -n /var/snap/lxd/common/lxd/images/82b997ec581b6ee87d3ef9ae7bd9d22221831cc148b7a53b60c7218b5cf4424f.rootfs: exit status 1 (xz uncompress failed with error code 9
+FATAL ERROR: writer: failed to read/uncompress file /var/snap/lxd/common/lxd/storage-pools/default/containers/juju-366ad2-6/rootfs/usr/lib/x86_64-linux-gnu/libsepol.so.2)
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
