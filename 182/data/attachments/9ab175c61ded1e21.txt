@@ -1,0 +1,21 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:862 Model status:
+
+Model  Controller           Cloud/Region         Version  SLA          Timestamp
+test   localhost-localhost  localhost/localhost  3.4.4    unsupported  02:00:13Z
+
+App                  Version  Status       Scale  Charm       Channel  Rev  Exposed  Message
+postgresql-test-app           maintenance      1  postgresql             0  no       installing PostgreSQL
+
+Unit                    Workload     Agent      Machine  Public address  Ports  Message
+postgresql-test-app/0*  maintenance  executing  0        10.216.45.15           (install) installing PostgreSQL
+
+Machine  State    Address       Inst id        Base          AZ  Message
+0        started  10.216.45.15  juju-bee604-0  ubuntu@22.04      Running
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:868 Juju error logs:
+
+machine-0: 01:37:24 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-0: 01:37:24 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-test-app-0: 01:37:24 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:947 Forgetting model main...
