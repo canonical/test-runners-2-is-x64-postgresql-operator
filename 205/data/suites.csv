@@ -1,0 +1,130 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This tests checks that a cluster recovers from a full cluster restart.
+
+    The test can be called a full cluster crash when the signal sent to the OS process
+    is SIGKILL.
+    ","131405","test_full_cluster_restart[SIGTERM-/snap/charmed-postgresql/[0-9]*/usr/bin/patroni]","tests.integration.ha_tests","Tue Oct 15 02:13:56 UTC 2024","passed","Tue Oct 15 02:16:07 UTC 2024","","test_self_healing","",""
+"","5","test_database_is_up[0]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"","3","test_database_is_up[1]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"","120578","test_modern_endpoint_with_multiple_related_endpoints","tests.integration.relations","Tue Oct 15 01:44:25 UTC 2024","passed","Tue Oct 15 01:46:26 UTC 2024","","test_relations","",""
+"","57","test_exporter_is_up[2]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:48 UTC 2024","","test_charm","",""
+"Test that an application can connect to different clusters of the same database.","25900","test_an_application_can_connect_to_multiple_aliased_database_clusters","tests.integration.new_relations","Tue Oct 15 02:02:42 UTC 2024","passed","Tue Oct 15 02:03:08 UTC 2024","","test_new_relations","",""
+"Build and deploy three unit of PostgreSQL.","669735","test_build_and_deploy","tests.integration.ha_tests","Tue Oct 15 01:37:00 UTC 2024","passed","Tue Oct 15 01:48:10 UTC 2024","","test_self_healing","",""
+"Test that the pre-upgrade-check action runs successfully.","2081","test_pre_upgrade_check","tests.integration.ha_tests","Tue Oct 15 01:48:28 UTC 2024","passed","Tue Oct 15 01:48:30 UTC 2024","","test_upgrade_from_stable","",""
+"Deploy Landscape Scalable Bundle to test the 'db-admin' relation.","3032170","test_landscape_scalable_bundle_db","tests.integration","Tue Oct 15 01:36:40 UTC 2024","broken","Tue Oct 15 02:27:12 UTC 2024","","test_db_admin","",""
+"","2191","test_postgresql_locales","tests.integration","Tue Oct 15 01:45:53 UTC 2024","passed","Tue Oct 15 01:45:55 UTC 2024","","test_charm","",""
+"Test application deploy in dirty environment with garbage storage from another application.","1017635","test_app_resources_conflicts_v3","tests.integration.ha_tests","Tue Oct 15 01:51:09 UTC 2024","passed","Tue Oct 15 02:08:06 UTC 2024","","test_smoke","",""
+"Build and deploy one unit of PostgreSQL and then test the available plugins.","871672","test_plugins","tests.integration","Tue Oct 15 01:36:58 UTC 2024","passed","Tue Oct 15 01:51:30 UTC 2024","","test_plugins","",""
+"","50","test_exporter_is_up[0]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"Test that relation data, like connection data, is updated correctly when scaling.","682923","test_relation_data_is_updated_correctly_when_scaling","tests.integration.new_relations","Tue Oct 15 02:03:31 UTC 2024","passed","Tue Oct 15 02:14:54 UTC 2024","","test_new_relations","",""
+"","50","test_exporter_is_up[1]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"Test that async replication works when scaling the clusters.","898626","test_scaling","tests.integration.ha_tests","Tue Oct 15 02:26:35 UTC 2024","passed","Tue Oct 15 02:41:34 UTC 2024","","test_async_replication","",""
+"","1025","test_data_integrator_creds_keep_on_working","tests.integration.ha_tests","Tue Oct 15 02:15:48 UTC 2024","passed","Tue Oct 15 02:15:49 UTC 2024","","test_async_replication","",""
+"","1037","test_settings_are_correct[2]","tests.integration","Tue Oct 15 01:45:52 UTC 2024","passed","Tue Oct 15 01:45:53 UTC 2024","","test_charm","",""
+"Kill primary unit, check reelection.","141893","test_reelection","tests.integration.ha_tests","Tue Oct 15 01:47:24 UTC 2024","passed","Tue Oct 15 01:49:46 UTC 2024","","test_replication","",""
+"Deploy both charms (application and database) to use in the tests.","540080","test_deploy_charms","tests.integration.new_relations","Tue Oct 15 01:36:40 UTC 2024","passed","Tue Oct 15 01:45:41 UTC 2024","","test_new_relations","",""
+"","173580","test_fail_and_rollback","tests.integration.ha_tests","Tue Oct 15 01:56:58 UTC 2024","passed","Tue Oct 15 01:59:51 UTC 2024","","test_upgrade","",""
+"Test that an application can request additional databases using the same interface.","23473","test_an_application_can_request_multiple_databases","tests.integration.new_relations","Tue Oct 15 02:03:08 UTC 2024","passed","Tue Oct 15 02:03:31 UTC 2024","","test_new_relations","",""
+"","1416338","test_nextcloud_db_blocked","tests.integration.new_relations","Tue Oct 15 01:36:30 UTC 2024","passed","Tue Oct 15 02:00:07 UTC 2024","","test_new_relations","",""
+"","79095","test_interruption_db_process[SIGTERM-/snap/charmed-postgresql/[0-9]*/usr/bin/patroni]","tests.integration.ha_tests","Tue Oct 15 02:03:42 UTC 2024","passed","Tue Oct 15 02:05:01 UTC 2024","","test_self_healing","",""
+"Build and deploy two units of PostgreSQL in AWS, test backup and restore actions.","2205304","test_backup_aws","tests.integration","Tue Oct 15 01:36:26 UTC 2024","broken","Tue Oct 15 02:13:12 UTC 2024","","test_backups","",""
+"","19667","test_extensions_blocking","tests.integration","Tue Oct 15 02:14:25 UTC 2024","passed","Tue Oct 15 02:14:45 UTC 2024","","test_db","",""
+"","79086","test_interruption_db_process[SIGKILL-/snap/charmed-postgresql/[0-9]*/usr/bin/patroni]","tests.integration.ha_tests","Tue Oct 15 02:06:17 UTC 2024","passed","Tue Oct 15 02:07:36 UTC 2024","","test_self_healing","",""
+"","222328","test_invalid_extra_user_roles","tests.integration.new_relations","Tue Oct 15 02:19:34 UTC 2024","passed","Tue Oct 15 02:23:17 UTC 2024","","test_new_relations","",""
+"Test password rotation action.","269236","test_password_rotation","tests.integration","Tue Oct 15 01:50:01 UTC 2024","passed","Tue Oct 15 01:54:30 UTC 2024","","test_password_rotation","",""
+"Deploy the charm-under-test.
+
+    Assert on the unit status before any relations/configurations take place.
+    ","516301","test_deploy","tests.integration","Tue Oct 15 01:37:11 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"","768596","test_scale_up","tests.integration","Tue Oct 15 01:47:48 UTC 2024","passed","Tue Oct 15 02:00:36 UTC 2024","","test_subordinates","",""
+"This tests checks that a cluster recovers from a full cluster restart.
+
+    The test can be called a full cluster crash when the signal sent to the OS process
+    is SIGKILL.
+    ","87014","test_full_cluster_restart[SIGTERM-postgres]","tests.integration.ha_tests","Tue Oct 15 02:12:11 UTC 2024","passed","Tue Oct 15 02:13:38 UTC 2024","","test_self_healing","",""
+"Test data is replicated to new units after a scale up.","1637096","test_scale_down_and_up","tests.integration","Tue Oct 15 01:47:45 UTC 2024","passed","Tue Oct 15 02:15:02 UTC 2024","","test_charm","",""
+"Build the charm and deploy it.","15089","test_deploy_active","tests.integration","Tue Oct 15 01:37:09 UTC 2024","passed","Tue Oct 15 01:37:24 UTC 2024","","test_tls","",""
+"Test that user can't connect with empty password.","2030","test_db_connection_with_empty_password","tests.integration","Tue Oct 15 01:55:05 UTC 2024","passed","Tue Oct 15 01:55:07 UTC 2024","","test_password_rotation","",""
+"","544855","test_upgrade_from_edge","tests.integration.ha_tests","Tue Oct 15 01:47:52 UTC 2024","passed","Tue Oct 15 01:56:57 UTC 2024","","test_upgrade","",""
+"","117203","test_legacy_endpoint_with_multiple_related_endpoints","tests.integration.relations","Tue Oct 15 01:42:28 UTC 2024","passed","Tue Oct 15 01:44:25 UTC 2024","","test_relations","",""
+"Test async replication between two PostgreSQL clusters.","414925","test_async_replication","tests.integration.ha_tests","Tue Oct 15 02:01:26 UTC 2024","passed","Tue Oct 15 02:08:21 UTC 2024","","test_async_replication","",""
+"Test that async replication fails back correctly.","46595","test_async_replication_failover_in_secondary_cluster","tests.integration.ha_tests","Tue Oct 15 02:25:47 UTC 2024","passed","Tue Oct 15 02:26:34 UTC 2024","","test_async_replication","",""
+"Test switching over to the second cluster.","438966","test_switchover","tests.integration.ha_tests","Tue Oct 15 02:08:23 UTC 2024","passed","Tue Oct 15 02:15:42 UTC 2024","","test_async_replication","",""
+"Verifies that database units with attached storage correctly repurpose storage.
+
+    It is not enough to verify that Juju attaches the storage. Hence test checks that the
+    postgresql properly uses the storage that was provided. (ie. doesn't just re-sync everything
+    from primary, but instead computes a diff between current storage and primary storage.)
+    ","848145","test_storage_re_use","tests.integration.ha_tests","Tue Oct 15 01:48:10 UTC 2024","passed","Tue Oct 15 02:02:18 UTC 2024","","test_self_healing","",""
+"Test that the pre-upgrade-check action runs successfully.","2074","test_pre_upgrade_check","tests.integration.ha_tests","Tue Oct 15 01:47:50 UTC 2024","passed","Tue Oct 15 01:47:52 UTC 2024","","test_upgrade","",""
+"Write to primary, read data from secondaries (check consistency).","7116","test_consistency","tests.integration.ha_tests","Tue Oct 15 01:49:47 UTC 2024","passed","Tue Oct 15 01:49:54 UTC 2024","","test_replication","",""
+"Test that the relation can be broken and re-established.","396185","test_reestablish_relation","tests.integration.ha_tests","Tue Oct 15 02:18:11 UTC 2024","passed","Tue Oct 15 02:24:47 UTC 2024","","test_async_replication","",""
+"","3","test_database_is_up[2]","tests.integration","Tue Oct 15 01:45:47 UTC 2024","passed","Tue Oct 15 01:45:47 UTC 2024","","test_charm","",""
+"","1022","test_get_data_integrator_credentials","tests.integration.ha_tests","Tue Oct 15 02:08:22 UTC 2024","passed","Tue Oct 15 02:08:23 UTC 2024","","test_async_replication","",""
+"Test that check relation data.","593401","test_relations","tests.integration.new_relations","Tue Oct 15 01:36:43 UTC 2024","passed","Tue Oct 15 01:46:37 UTC 2024","","test_relations_coherence","",""
+"Test that the admin role gives access to all the databases.","213985","test_admin_role","tests.integration.new_relations","Tue Oct 15 02:16:00 UTC 2024","passed","Tue Oct 15 02:19:34 UTC 2024","","test_new_relations","",""
+"This tests checks that a cluster recovers from a full cluster restart.
+
+    The test can be called a full cluster crash when the signal sent to the OS process
+    is SIGKILL.
+    ","80271","test_full_cluster_restart[SIGKILL-postgres]","tests.integration.ha_tests","Tue Oct 15 02:16:25 UTC 2024","passed","Tue Oct 15 02:17:45 UTC 2024","","test_self_healing","",""
+"Test that there is no read-only endpoint in a standalone cluster.","22112","test_no_read_only_endpoint_in_standalone_cluster","tests.integration.new_relations","Tue Oct 15 01:45:41 UTC 2024","passed","Tue Oct 15 01:46:03 UTC 2024","","test_new_relations","",""
+"Remove unit with force while storage is alive.","220872","test_app_force_removal","tests.integration.ha_tests","Tue Oct 15 01:36:45 UTC 2024","passed","Tue Oct 15 01:40:26 UTC 2024","","test_smoke","",""
+"Test the audit plugin.","409670","test_audit_plugin","tests.integration","Tue Oct 15 01:38:37 UTC 2024","passed","Tue Oct 15 01:45:26 UTC 2024","","test_audit","",""
+"","90341","test_freeze_db_process[postgres]","tests.integration.ha_tests","Tue Oct 15 02:07:38 UTC 2024","passed","Tue Oct 15 02:09:08 UTC 2024","","test_self_healing","",""
+"Test that in general, there is no change when password validation fails.","11474","test_no_password_change_on_invalid_password","tests.integration","Tue Oct 15 01:55:07 UTC 2024","passed","Tue Oct 15 01:55:18 UTC 2024","","test_password_rotation","",""
+"Test that passwords don't get exposed on postgresql logs.","6558","test_no_password_exposed_on_logs","tests.integration","Tue Oct 15 01:55:18 UTC 2024","passed","Tue Oct 15 01:55:25 UTC 2024","","test_password_rotation","",""
+"Test that a relation with no database name doesn't block the charm.","66520","test_relation_with_no_database_name","tests.integration.new_relations","Tue Oct 15 02:14:54 UTC 2024","passed","Tue Oct 15 02:16:00 UTC 2024","","test_new_relations","",""
+"Test basic functionality of database relation interface.","1311","test_database_relation_with_charm_libraries","tests.integration.new_relations","Tue Oct 15 01:57:04 UTC 2024","passed","Tue Oct 15 01:57:05 UTC 2024","","test_new_relations","",""
+"","172770","test_freeze_db_process[/snap/charmed-postgresql/[0-9]*/usr/bin/patroni]","tests.integration.ha_tests","Tue Oct 15 02:09:09 UTC 2024","passed","Tue Oct 15 02:12:02 UTC 2024","","test_self_healing","",""
+"Recreates the cluster from storage volumes.","2428876","test_cluster_restore","tests.integration.ha_tests","Tue Oct 15 01:54:00 UTC 2024","passed","Tue Oct 15 02:34:29 UTC 2024","","test_restore_cluster","",""
+"Test that an application can connect to different clusters of the same database.","24489","test_an_application_can_connect_to_multiple_database_clusters","tests.integration.new_relations","Tue Oct 15 02:02:17 UTC 2024","passed","Tue Oct 15 02:02:42 UTC 2024","","test_new_relations","",""
+"Deploy Mailman3 Core to test the 'db' relation.","1302975","test_mailman3_core_db","tests.integration","Tue Oct 15 01:37:23 UTC 2024","passed","Tue Oct 15 01:59:06 UTC 2024","","test_db","",""
+"Build and deploy two PostgreSQL clusters.","954727","test_build_and_deploy","tests.integration.ha_tests","Tue Oct 15 01:38:05 UTC 2024","passed","Tue Oct 15 01:54:00 UTC 2024","","test_restore_cluster","",""
+"","79239","test_interruption_db_process[SIGTERM-postgres]","tests.integration.ha_tests","Tue Oct 15 02:02:22 UTC 2024","passed","Tue Oct 15 02:03:41 UTC 2024","","test_self_healing","",""
+"Test that the charm can handle invalid and valid backup configurations.","0","test_invalid_config_and_recovery_after_fixing_it","tests.integration","Tue Oct 15 02:12:34 UTC 2024","skipped","Tue Oct 15 02:12:34 UTC 2024","","test_backups","",""
+"Build, deploy two units of PostgreSQL and do backup in AWS. Then, write new data into DB, switch WAL file and test point-in-time-recovery restore action.","1536177","test_pitr_backup_aws","tests.integration","Tue Oct 15 01:38:03 UTC 2024","broken","Tue Oct 15 02:03:39 UTC 2024","","test_backups_pitr","",""
+"Build and deploy two PostgreSQL cluster in two separate models to test async replication.","1366383","test_deploy_async_replication_setup","tests.integration.ha_tests","Tue Oct 15 01:38:40 UTC 2024","passed","Tue Oct 15 02:01:26 UTC 2024","","test_async_replication","",""
+"Simple test to ensure that the PostgreSQL and application charms get deployed.","622802","test_deploy_latest","tests.integration.ha_tests","Tue Oct 15 01:37:27 UTC 2024","passed","Tue Oct 15 01:47:50 UTC 2024","","test_upgrade","",""
+"Test that TLS is enabled when relating to the TLS Certificates Operator.","1011682","test_tls_enabled","tests.integration","Tue Oct 15 01:37:24 UTC 2024","passed","Tue Oct 15 01:54:16 UTC 2024","","test_tls","",""
+"","74186","test_interruption_db_process[SIGKILL-postgres]","tests.integration.ha_tests","Tue Oct 15 02:05:02 UTC 2024","passed","Tue Oct 15 02:06:16 UTC 2024","","test_self_healing","",""
+"Test promoting the standby cluster.","141165","test_promote_standby","tests.integration.ha_tests","Tue Oct 15 02:15:49 UTC 2024","passed","Tue Oct 15 02:18:10 UTC 2024","","test_async_replication","",""
+"Test data persists through a primary deletion.","431835","test_persist_data_through_primary_deletion","tests.integration","Tue Oct 15 02:15:02 UTC 2024","passed","Tue Oct 15 02:22:14 UTC 2024","","test_charm","",""
+"Simple test to ensure that the PostgreSQL and application charms get deployed.","591285","test_deploy_stable","tests.integration.ha_tests","Tue Oct 15 01:38:36 UTC 2024","passed","Tue Oct 15 01:48:28 UTC 2024","","test_upgrade_from_stable","",""
+"Deploy both charms (application and database) to use in the tests.","340781","test_deploy_charms","tests.integration.relations","Tue Oct 15 01:36:47 UTC 2024","passed","Tue Oct 15 01:42:28 UTC 2024","","test_relations","",""
+"","131633","test_scale_down","tests.integration","Tue Oct 15 02:00:36 UTC 2024","passed","Tue Oct 15 02:02:48 UTC 2024","","test_subordinates","",""
+"Test that there is read-only endpoint in a scaled up cluster.","661037","test_read_only_endpoint_in_scaled_up_cluster","tests.integration.new_relations","Tue Oct 15 01:46:03 UTC 2024","passed","Tue Oct 15 01:57:04 UTC 2024","","test_new_relations","",""
+"Checks if charm gets blocked when trying to disable a plugin in use.","130121","test_plugin_objects","tests.integration","Tue Oct 15 01:51:30 UTC 2024","passed","Tue Oct 15 01:53:40 UTC 2024","","test_plugins","",""
+"","3064","test_settings_are_correct[0]","tests.integration","Tue Oct 15 01:45:48 UTC 2024","passed","Tue Oct 15 01:45:51 UTC 2024","","test_charm","",""
+"Check that writes in one cluster are not replicated to another cluster.","469970","test_no_data_replicated_between_clusters","tests.integration.ha_tests","Tue Oct 15 01:49:55 UTC 2024","passed","Tue Oct 15 01:57:45 UTC 2024","","test_replication","",""
+"","0","test_canonical_livepatch_onprem_bundle_db","tests.integration","Tue Oct 15 02:14:45 UTC 2024","skipped","Tue Oct 15 02:14:45 UTC 2024","","test_db","",""
+"","1038","test_settings_are_correct[1]","tests.integration","Tue Oct 15 01:45:51 UTC 2024","passed","Tue Oct 15 01:45:52 UTC 2024","","test_charm","",""
+"Build and deploy two units of PostgreSQL in GCP, test backup and restore actions.","2152907","test_backup_gcp","tests.integration","Tue Oct 15 01:36:41 UTC 2024","broken","Tue Oct 15 02:12:34 UTC 2024","","test_backups","",""
+"Test superuser actions and the request for more permissions.","578","test_user_with_extra_roles","tests.integration.new_relations","Tue Oct 15 01:57:05 UTC 2024","passed","Tue Oct 15 01:57:06 UTC 2024","","test_new_relations","",""
+"Build, deploy two units of PostgreSQL and do backup in GCP. Then, write new data into DB, switch WAL file and test point-in-time-recovery restore action.","1980652","test_pitr_backup_gcp","tests.integration","Tue Oct 15 01:36:53 UTC 2024","broken","Tue Oct 15 02:09:53 UTC 2024","","test_backups_pitr","",""
+"Test updating from stable channel.","653905","test_upgrade_from_stable","tests.integration.ha_tests","Tue Oct 15 01:48:30 UTC 2024","broken","Tue Oct 15 01:59:24 UTC 2024","","test_upgrade_from_stable","",""
+"Checking if password is same as returned by CLI.
+
+    I.e. we're manipulating the secret we think we're manipulating.
+    ","2529","test_password_from_secret_same_as_cli","tests.integration","Tue Oct 15 01:54:30 UTC 2024","passed","Tue Oct 15 01:54:32 UTC 2024","","test_password_rotation","",""
+"Test that two different application connect to the database with different credentials.","311557","test_two_applications_doesnt_share_the_same_relation_data","tests.integration.new_relations","Tue Oct 15 01:57:06 UTC 2024","passed","Tue Oct 15 02:02:17 UTC 2024","","test_new_relations","",""
+"Test that relation data, like connection data, is updated correctly when scaling.","749903","test_relation_data_is_updated_correctly_when_scaling","tests.integration","Tue Oct 15 01:59:06 UTC 2024","passed","Tue Oct 15 02:11:36 UTC 2024","","test_db","",""
+"Test that the password can't be set to an empty string.","32249","test_empty_password","tests.integration","Tue Oct 15 01:54:32 UTC 2024","passed","Tue Oct 15 01:55:05 UTC 2024","","test_password_rotation","",""
+"Build and deploy three unit of PostgreSQL.","629829","test_build_and_deploy","tests.integration.ha_tests","Tue Oct 15 01:36:51 UTC 2024","passed","Tue Oct 15 01:47:21 UTC 2024","","test_replication","",""
+"A forceful restart with deleted data and without transaction logs (forced clone).","84412","test_forceful_restart_without_data_and_transaction_logs","tests.integration.ha_tests","Tue Oct 15 02:19:37 UTC 2024","broken","Tue Oct 15 02:21:01 UTC 2024","","test_self_healing","",""
+"Completely cut and restore network.","0","test_network_cut","tests.integration.ha_tests","Tue Oct 15 02:21:55 UTC 2024","skipped","Tue Oct 15 02:21:55 UTC 2024","","test_self_healing","",""
+"This tests checks that a cluster recovers from a full cluster restart.
+
+    The test can be called a full cluster crash when the signal sent to the OS process
+    is SIGKILL.
+    ","81542","test_full_cluster_restart[SIGKILL-/snap/charmed-postgresql/[0-9]*/usr/bin/patroni]","tests.integration.ha_tests","Tue Oct 15 02:18:03 UTC 2024","passed","Tue Oct 15 02:19:24 UTC 2024","","test_self_healing","",""
+"","169504","test_roles_blocking","tests.integration","Tue Oct 15 02:11:36 UTC 2024","passed","Tue Oct 15 02:14:25 UTC 2024","","test_db","",""
+"Build the charm and deploy it.","687326","test_deploy_active","tests.integration","Tue Oct 15 01:38:33 UTC 2024","passed","Tue Oct 15 01:50:01 UTC 2024","","test_password_rotation","",""
+"Test that's possible to change PostgreSQL parameters.","109765","test_postgresql_parameters_change","tests.integration","Tue Oct 15 01:45:55 UTC 2024","passed","Tue Oct 15 01:47:45 UTC 2024","","test_charm","",""
+"Test application deploy in dirty environment with garbage storage from another application.","0","test_app_resources_conflicts_v2","tests.integration.ha_tests","Tue Oct 15 02:08:06 UTC 2024","skipped","Tue Oct 15 02:08:06 UTC 2024","","test_smoke","",""
+"Completely cut and restore network (situation when the unit IP doesn't change).","0","test_network_cut_without_ip_change","tests.integration.ha_tests","Tue Oct 15 02:21:55 UTC 2024","skipped","Tue Oct 15 02:21:55 UTC 2024","","test_self_healing","",""
+"Test that is possible to restore a backup to another PostgreSQL cluster.","0","test_restore_on_new_cluster","tests.integration","Tue Oct 15 02:12:34 UTC 2024","skipped","Tue Oct 15 02:12:34 UTC 2024","","test_backups","",""
+"Build and deploy one unit of PostgreSQL and then test config with wrong parameters.","287883","test_config_parameters","tests.integration","Tue Oct 15 01:37:04 UTC 2024","passed","Tue Oct 15 01:41:52 UTC 2024","","test_config","",""
+"","668404","test_deploy","tests.integration","Tue Oct 15 01:36:39 UTC 2024","passed","Tue Oct 15 01:47:48 UTC 2024","","test_subordinates","",""
+"Test charm deploy in dirty environment with garbage storage.","642834","test_charm_garbage_ignorance","tests.integration.ha_tests","Tue Oct 15 01:40:26 UTC 2024","passed","Tue Oct 15 01:51:09 UTC 2024","","test_smoke","",""
+"Test that async replication fails over correctly.","57797","test_async_replication_failover_in_main_cluster","tests.integration.ha_tests","Tue Oct 15 02:24:48 UTC 2024","passed","Tue Oct 15 02:25:46 UTC 2024","","test_async_replication","",""
