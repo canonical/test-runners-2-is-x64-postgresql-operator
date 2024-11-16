@@ -1,0 +1,42 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller           Cloud/Region         Version  SLA          Timestamp
+test   localhost-localhost  localhost/localhost  3.4.5    unsupported  01:34:20Z
+
+App                  Version  Status  Scale  Charm                Channel      Rev  Exposed  Message
+another-database              error     1/2  postgresql                          0  no       hook failed: "leader-elected"
+database                      error       1  postgresql                          1  no       hook failed: "leader-elected"
+postgresql-test-app           active      2  postgresql-test-app  latest/edge  279  no       
+
+Unit                    Workload  Agent       Machine  Public address  Ports  Message
+another-database/0*     error     idle        2        10.17.110.205          hook failed: "leader-elected"
+another-database/1      waiting   allocating  3        10.17.110.44           waiting for machine
+database/0*             error     idle        4        10.17.110.122          hook failed: "leader-elected"
+postgresql-test-app/0*  active    idle        0        10.17.110.67           
+postgresql-test-app/1   active    idle        1        10.17.110.146          
+
+Machine  State    Address        Inst id        Base          AZ  Message
+0        started  10.17.110.67   juju-bc7fc5-0  ubuntu@22.04      Running
+1        started  10.17.110.146  juju-bc7fc5-1  ubuntu@22.04      Running
+2        started  10.17.110.205  juju-bc7fc5-2  ubuntu@22.04      Running
+3        pending  10.17.110.44   juju-bc7fc5-3  ubuntu@22.04      Running
+4        started  10.17.110.122  juju-bc7fc5-4  ubuntu@22.04      Running
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+machine-0: 01:33:29 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-0: 01:33:29 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-test-app-0: 01:33:29 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-1: 01:33:30 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-1: 01:33:30 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-postgresql-test-app-1: 01:33:30 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-2: 01:33:50 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-2: 01:33:50 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-another-database-0: 01:33:51 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+machine-4: 01:33:51 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-4: 01:33:51 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-database-0: 01:33:51 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-database-0: 01:34:09 ERROR unit.database/0.juju-log An exception occurred when installing charmed-postgresql. Reason: Snap: 'charmed-postgresql'; command ['snap', 'install', 'charmed-postgresql', '--channel="14/stable"', '--revision="124"'] failed with output = ''
+unit-another-database-0: 01:34:09 ERROR unit.another-database/0.juju-log An exception occurred when installing charmed-postgresql. Reason: Snap: 'charmed-postgresql'; command ['snap', 'install', 'charmed-postgresql', '--channel="14/stable"', '--revision="124"'] failed with output = ''
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
