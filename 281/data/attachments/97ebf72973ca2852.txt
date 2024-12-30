@@ -1,0 +1,28 @@
+[32mINFO    [0m pytest_operator.plugin:plugin.py:903 Model status:
+
+Model  Controller           Cloud/Region         Version  SLA          Timestamp
+test   localhost-localhost  localhost/localhost  3.4.5    unsupported  01:48:01Z
+
+App               Version  Status   Scale  Charm             Channel      Rev  Exposed  Message
+landscape-client           unknown      0  landscape-client  latest/edge   70  no       
+pg                         error      1/3  postgresql                       0  no       hook failed: "leader-elected"
+ubuntu-advantage           unknown      0  ubuntu-advantage  latest/edge  137  no       
+
+Unit   Workload  Agent       Machine  Public address  Ports  Message
+pg/0*  error     idle        0        10.131.108.4           hook failed: "leader-elected"
+pg/1   waiting   allocating  1        10.131.108.210         waiting for machine
+pg/2   waiting   allocating  2        10.131.108.51          waiting for machine
+
+Machine  State    Address         Inst id        Base          AZ  Message
+0        started  10.131.108.4    juju-2bfdfb-0  ubuntu@22.04      Running
+1        pending  10.131.108.210  juju-2bfdfb-1  ubuntu@22.04      Running
+2        pending  10.131.108.51   juju-2bfdfb-2  ubuntu@22.04      Running
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:909 Juju error logs:
+
+machine-0: 01:47:33 ERROR juju.worker.dependency "kvm-container-provisioner" manifold worker returned unexpected error: container types not yet available
+machine-0: 01:47:33 ERROR juju.worker.dependency "lxd-container-provisioner" manifold worker returned unexpected error: container types not yet available
+unit-pg-0: 01:47:33 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-pg-0: 01:47:51 ERROR unit.pg/0.juju-log An exception occurred when installing charmed-postgresql. Reason: Snap: 'charmed-postgresql'; command ['snap', 'install', 'charmed-postgresql', '--channel="14/stable"', '--revision="124"'] failed with output = ''
+
+[32mINFO    [0m pytest_operator.plugin:plugin.py:991 Forgetting model main...
